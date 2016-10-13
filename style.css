@@ -1,0 +1,96 @@
+
+
+main {
+  padding: 0 200px;
+}
+.top-heading {
+  background-image: url(http://www.placecage.com/c/1500/250);
+  padding: 50px;
+  color: #ffffff;
+}
+
+.top-heading img {
+  position: relative;
+  top: -45px;
+  left: -45px;
+  border-radius: 50%;
+}
+/*
+.top-heading h1,  {
+  font-size: 175%;
+  color: #000000;
+  position: relative;
+  top: -30px;
+  right: -175px;
+}
+
+.top-heading p {
+  color: #ffffff;
+
+}
+*/
+.top-heading h1, .top-heading p {
+  text-align: left;
+}
+
+#second-headshot {
+  border-radius: 50%;
+  position: relative;
+  right: -80px;
+  margin: 0;
+
+}
+
+.paragraph {
+  text-align: left;
+  width: 70%;
+}
+
+.paragraph input {
+  float: right;
+  display: inline;
+}
+
+  #third-headshot {
+
+    border-radius: 50%;
+  }
+
+  .author p, .author img {
+    display: inline;
+    position: relative;
+    top: -20px;
+    left: 0px;
+    vertical-align: top;
+  }
+
+  #date {
+    padding: 20px;
+  }
+
+  #answer {
+    padding: 0 90px;
+  }
+
+  .sidebar {
+    float: right;
+    width: 20%;
+    position: relative;
+    top: 10px;
+  }
+
+.sidebar h6, .sidebar p{
+  text-align: left;
+  padding: 0;
+  margin: 0;
+
+}
+  .fivepics{
+    display: inline;
+  }
+
+/* footer styles */
+
+body .footer {
+   align: center;
+}
