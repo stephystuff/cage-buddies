@@ -91,6 +91,32 @@ main {
 
 /* footer styles */
 
-body .footer {
-   align: center;
+body > footer {
+   width: 900px;
+   margin: 0 auto;
+}
+
+footer h1 {
+  text-align: center;
+  margin: 45px 0px;
+}
+
+footer img {
+  display: block;
+  float: right;
+  width: 175px;
+  height: 175px;
+
+}
+
+.bottom nav ul {
+  list-style: none;
+}
+
+.bottom nav li {
+  display: inline;
+}
+
+.bottom {
+  display: inline;
 }
