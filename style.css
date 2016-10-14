@@ -1,49 +1,50 @@
-
-
 main {
   padding: 0 200px;
 }
-.top-heading {
-  background-image: url(http://www.placecage.com/c/1500/250);
-  padding: 50px;
+
+
+header {
+  background-image:url(http://www.placecage.com/c/1500/250);
+  padding: 45px;
   color: #ffffff;
 }
 
 .top-heading img {
   position: relative;
-  top: -45px;
-  left: -45px;
+  top: -30px;
+  left: -30px;
   border-radius: 50%;
 }
-/*
-.top-heading h1,  {
-  font-size: 175%;
-  color: #000000;
-  position: relative;
-  top: -30px;
-  right: -175px;
-}
 
-.top-heading p {
-  color: #ffffff;
-
-}
-*/
-.top-heading h1, .top-heading p {
+.top-heading {
   text-align: left;
+
 }
+
+.navigation ul {
+  list-style: none;
+  text-align: right;
+  margin: -10px;
+}
+
+.navigation li {
+  display: inline;
+  margin: 10px;
+}
+
+
 
 #second-headshot {
   border-radius: 50%;
   position: relative;
   right: -80px;
   margin: 0;
-
 }
-
 .paragraph {
   text-align: left;
   width: 70%;
+  font-family; 'Helvetica';
+  font-size: 14px;
 }
 
 .paragraph input {
@@ -70,20 +71,30 @@ main {
 
   #answer {
     padding: 0 90px;
+    color: #3D6BB1;
+    font-size 30px;
+    font-family: helvetica;
   }
-
+#sidebar {
+  font-size: 14px;
+}
   .sidebar {
     float: right;
     width: 20%;
     position: relative;
     top: 10px;
+    border-left: 0.5px solid black;
+    padding: 10px;
   }
 
-.sidebar h6, .sidebar p{
+}
+.sidebar h6, .sidebar {
   text-align: left;
   padding: 0;
   margin: 0;
-
+}
+h6 {
+  font-family: font-family: 'Six Caps', sans-serif;
 }
   .fivepics{
     display: inline;
@@ -108,7 +119,10 @@ footer img {
   height: 175px;
 
 }
+footer {
+  border-top: 0.5px solid black;
 
+}
 .bottom nav ul {
   list-style: none;
 }
@@ -119,4 +133,7 @@ footer img {
 
 .bottom {
   display: inline;
+}
+input {
+  background-color: #06347B;
 }
